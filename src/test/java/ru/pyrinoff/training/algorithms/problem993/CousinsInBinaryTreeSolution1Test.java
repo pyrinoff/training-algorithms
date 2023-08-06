@@ -6,7 +6,7 @@ import ru.pyrinoff.training.algorithms.problem993.util.TreeNode;
 
 public class CousinsInBinaryTreeSolution1Test {
 
-    ISolution solution = new CousinsInBinaryTreeSolution3FromAnswers();
+    ICousinsInBinaryTreeSolution solution = new CousinsInBinaryTreeSolution3FromAnswers();
 
     @Test
     void one() {

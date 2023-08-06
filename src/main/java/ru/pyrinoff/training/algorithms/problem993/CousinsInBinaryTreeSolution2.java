@@ -4,7 +4,8 @@ import lombok.SneakyThrows;
 import ru.pyrinoff.training.algorithms.problem993.util.TreeNode;
 
 //https://leetcode.com/problems/cousins-in-binary-tree/
-public class CousinsInBinaryTreeSolution2 implements ISolution {
+//My straightforward solution #2. Complexity O(n)
+public class CousinsInBinaryTreeSolution2 implements ICousinsInBinaryTreeSolution {
 
     public static class DeepResponse {
         int deep;

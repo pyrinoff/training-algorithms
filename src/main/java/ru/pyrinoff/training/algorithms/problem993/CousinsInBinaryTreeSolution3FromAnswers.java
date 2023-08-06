@@ -7,7 +7,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 //https://leetcode.com/problems/cousins-in-binary-tree/solutions/3294625/java-runtime-0-ms/
-public class CousinsInBinaryTreeSolution3FromAnswers implements ISolution {
+//Complexity O(n)
+public class CousinsInBinaryTreeSolution3FromAnswers implements ICousinsInBinaryTreeSolution {
 
     @SneakyThrows
     public boolean isCousins(TreeNode root, int x, int y) {

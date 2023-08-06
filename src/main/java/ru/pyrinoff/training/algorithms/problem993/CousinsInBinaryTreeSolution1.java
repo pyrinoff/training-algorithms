@@ -3,7 +3,8 @@ package ru.pyrinoff.training.algorithms.problem993;
 import ru.pyrinoff.training.algorithms.problem993.util.TreeNode;
 
 //https://leetcode.com/problems/cousins-in-binary-tree/
-public class CousinsInBinaryTreeSolution1 implements ISolution {
+//My straightforward solution. Complexity O(n^2)
+public class CousinsInBinaryTreeSolution1 implements ICousinsInBinaryTreeSolution {
 
   public boolean isCousins(TreeNode root, int x, int y) {
         return deepOfValue(root, x, 0) == deepOfValue(root, y, 0) && !hasSameParent(root, x, y);
